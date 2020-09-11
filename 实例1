@@ -7,3 +7,4 @@ elif TempStr[-1] in ['C','c']:
    print("转化后的温度是{:.2f}F".format(F))
 else:
    print("输入格式错误")   
+![](https://img2020.cnblogs.com/blog/2148400/202009/2148400-20200911164838573-635808260.png)
