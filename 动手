@@ -1,0 +1,11 @@
+from turtle import *
+setup(600,600,300,300)
+bgcolor("black")
+pensize(3)
+colors = ["blue","yellow","red","purple","green","orange"]
+for i in range(360):
+    pencolor(colors[i%6])
+    fd(1.2*i)
+    speed(10)
+    right(59)    
+done()    
